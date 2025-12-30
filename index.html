@@ -1,19 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Cloud Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMI Medressa</title>
     <style>
-        body { font-family: sans-serif; text-align: center; margin-top: 50px; background-color: #f0f8ff; }
-        h1 { color: #2c3e50; }
-        .box { border: 2px solid #3498db; display: inline-block; padding: 20px; border-radius: 10px; background: white; }
+        /* This is the CSS - The "Style" of the website */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border-top: 5px solid #2e7d32; /* A nice green theme */
+        }
+        h1 {
+            color: #2e7d32;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+        .btn {
+            margin-top: 20px;
+            display: inline-block;
+            padding: 10px 25px;
+            background-color: #2e7d32;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #1b5e20;
+        }
     </style>
 </head>
 <body>
-    <div class="box">
-        <h1>Hello from the Cloud! 🚀</h1>
-        <p>This page was created by Aziza.</p>
-        <p>I am learning how <b>Cloud Computing</b> hosts the web!</p>
+
+    <div class="container">
+        <h1>Welcome to UMI Medressa</h1>
+        <p>Your journey to knowledge begins here.</p>
+        <a href="#" class="btn" onclick="alert('Enrollment coming soon!')">Learn More</a>
     </div>
+
 </body>
 </html>
-
